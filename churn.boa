@@ -1,0 +1,14 @@
+churn: output top(50) of string weight int;
+revisioncount: output sum of int;
+p: Project = input;
+revisionCount: int = 0;
+visit(p, visitor {
+	before node: Revision ->{
+		revisioncount << 1;
+	}
+	before node: ChangedFile -> {
+	    churn << node.name weight 1;
+		stop;
+	}
+});
+

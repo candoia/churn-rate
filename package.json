@@ -1,0 +1,16 @@
+{
+  "name": "churn-rate",
+  "productName": "Churn Rate",
+  "version": "0.0.1",
+  "author": "Nitin Mukesh Tiwari <nmtiwari@iastate.edu>",
+  "description": "Displays churn rate of files changed as a bar chart.",
+  "main": "main.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candoia/churn-rate"
+  },
+  "icon": {
+  	"type": "fa",
+  	"name": "certificate"
+  }
+}
